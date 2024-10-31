@@ -11,7 +11,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav></nav>
+     <!--  ********************************************************************************************************  NAV BAR  ********************************************************************************************************-->
+  <nav class="navbar navbar-expand-lg bg-dark-subtle fixed-top">
+    <div class="container-fluid align-items-center ">
+
+      <a class="navbar-brand fs-2 p-0 me-1" style="color:#17a;" id="suckless_tag" href="#sucless_tag">
+        <img src="assets/suckless_logo.svg" alt="suckless_logo" height="30" width="40">
+        suckless.org
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+
+          <li class="nav-item fs-5">
+            <a class="nav-link disabled fst-italic text-nowrap" id="suckless_description" aria-disabled="true">software
+              that sucks less</a>
+          </li>
+
+
+          <li class="nav-item fs-6 mt-1">
+            <a class="nav-link active" aria-current="page" href="#">Acceil</a>
+          </li>
+
+
+          <li class="nav-item dropdown fs-6 mt-1">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">dwm</a></li>
+              <li><a class="dropdown-item" href="#">dmenu</a></li>
+              <li><a class="dropdown-item" href="#">St</a></li>
+              <li><a class="dropdown-item" href="#">Alacritty</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item fs-6 mt-1">
+            <a class="nav-link " href="#">Contacts</a>
+          </li>
+
+          <li class="nav-item fs-6 mt-1">
+            <a class="nav-link " href="#">Aide</a>
+          </li>
+        </ul>
+
+
+        <form class="d-flex fs-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary me-2" type="submit">Search</button>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeSwitch"    title="Switch between light and dark mode">
+            <label class="form-check-label" for="darkModeSwitch"></label>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </nav>
     <main></main>
     <footer></footer>
 
